@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theplanetd</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+       * {
+            font-family: "Mukta", sans-serif;   
+        }
+    </style>
+    <!-- favicon -->
+     <link rel="icon" type="png/img" href="https://i.pinimg.com/originals/58/14/8d/58148d6ab1004f33e04e5d88135d1558.jpg">
+</head>
+<body>
+    <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light  ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+              <i class="logo">
+                <img src="./travel vog/the-planet-d-logo-2021.webp" alt="">
+              </i>
+    
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link "href="#">BLOGS</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">DESTINATIONS</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">EXPERIENCES</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">ITINERARIES</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">NOMADIC LIVING</a>
+                  </li>
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown ms-3">
+                    <a
+                      data-mdb-dropdown-init
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      aria-expanded="false"
+                    >
+                    TRAVEL TIPS
+                    </a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">BEST TRAVEL TIPS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">TRAVEL RESOURCES</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">BUDGET TRAVEL TIPS</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <span class="mt-2 ms-3">
+                    <i class="fas fa-search"></i>
+                  </span>
+
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+        </div>
+
+        <!-- Banner -->
+         <section>
+          <div class="banner">
+            <img src="https://theplanetd.com/images/The-Planet-D-Hero.jpg" alt="">
+          </div>
+  
+          <div class="overlay Container border border-2 border-success  m-3 p-3">
+            <div class="inner">
+              <h1 class="h1">ADVENTURE IS FOR </h1>
+              <h1 class="h2">EVERYONE!</h1>
+              <h1 class="h3 fs-1">Where Do You Want To Start Your Next Adventure?</h1>
+            
+              <button class="btn">
+              <form class="d-flex input-group w-auto">
+               
+                <input
+                  class=" form-control "
+                  placeholder="Search theplanetd.."
+                  
+                />
+                <span class=" search input-group-text border-0 bg-primary  ">
+                  <i class="fas fa-search"></i>
+                </span>
+              </form>
+            </button>
+            <h6 class="h4 fs-6 mt-3">Popular Searches: Thailand, Canada, United State</h6>
+
+            </div>
+          </div>
+         </section>
+         
+         <div class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"  fill="currentColor" class="bi bi-arrow-down-circle " viewBox="0 0 16 16 ">
+            <path fill-rule="" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+          </svg>
+         </div>
+         <div>
+          <i>
+            <div class="banner2">
+              <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                  <span class="national">
+                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/national-geographic-society-logo.png" alt="">
+                  </span>
+                  <span>
+                  <img src="https://logodownload.org/wp-content/uploads/2017/04/forbes-logo-6-1.png" alt="">
+                  </span>
+                    <span>
+                     <img src="https://cdn.freebiesupply.com/logos/large/2x/bbc-2-logo-png-transparent.png" alt="">
+                   </span>
+                   <span>
+                    <img src="https://1000logos.net/wp-content/uploads/2016/11/CNN-Logo-1980-2048x1152.png" alt="">
+                   </span>
+                   <span>
+                      <img src="https://logos-world.net/wp-content/uploads/2021/02/CBC-Television-Logo.png" alt="">
+                    </span>
+                    <span>
+                      <img src="http://www.logotypes101.com/logos/696/75638E581A04F7EA781EFD416A01D7B0/nbc002_logo_vertical_bw.png" alt="">
+                    </span>
+      
+                </div>
+                <div class="col-2"></div>
+              </div>
+           </i>
+          </div>
+        </div>
+        <!-- Body -->
+<div class="body">
+  <div class="row">
+    <div class="col-6">
+      <img src="./travel vog/About-the-planet-d-front-page.jpg" alt="">
+    </div>
+    <div class="col-6 ">
+        <h1 class="h mt-4">ABOUT</h1>
+        <h1 class="h2">DAVE AND DEB</h1>
+
+        <p class="para ">
+          Thanks for stopping by.We're Dave and Deb the founders of one of the top 10 travel blogs in the world according to Forbes.
+        <br>
+        <br>
+        
+        12 years ago we left our jobs, sold everything we owned, and struck out on an adventure that not only changed our lives but inspired others to step out of their comfort zone and enrich their lives through travel.
+
+        </p>
+        <div class=" hello col-6 mx-auto  fs-5">
+          <button class="btn btn-primary " type="button " >READ MORE ABOUT US HERE</button>
+        </div>
+    </div>
+
+    
+    
+</div>
+</div>
+
+
+
+    <!-- section -->
+
+    <h1 class="what">WHAT IS TRENDING RIGHT NOW!</h1>
+<div class="row2">
+    <div class="row">
+      <div class="col-3">
+        <img src="./travel vog/Best-Summer-Destinations-in-Europe-800x600.jpg" alt="">
+        <div class="txt1 text-primary me-5">
+          <h3>17 Best Summer</h3>
+        <h3>Destination In Europe</h3>
+        <h3>(2024)</h3>
+        </div>
+      </div>
+      <div class="col-3">
+        <img src="./travel vog/best-places-to-visit-in-September-USA-800x600.jpg" alt="">
+        <div class="txt1 text-primary me-4">
+          <h3>11 Best Place To visit In</h3>
+        <h3>September USA (2024)</h3>
+        </div>
+
+      </div>
+      <div class="col-3">
+        <img src="./travel vog/Best-Weekend-Getaways-in-the-USA-800x600.jpeg" alt="">
+        <div class="txt1 text-primary me-4">
+          <h3>25 Best Weekend</h3>
+        <h3>Getaways In The USA</h3>
+        <h3>(2024)</h3>
+        </div>
+
+      </div>
+      <div class="col-3">
+        <img src="./travel vog/Best-Places-To-Visit-in-summer-USA-800x600.jpg" alt="">
+        <div class="txt1 text-primary me-4">
+          <h3>27 Best Place To Visit In</h3>
+        <h3>Summer In The USA (2024</h3>
+        <h3>Vaction Ideas For</h3>
+        <h3>Everyone)</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+<!-- section 2 -->
+<div class="section">
+<h1 class="how">HOW CAN WE HELP YOU TRAVEL MORE?</h1>
+  </div>
+
+<div class="row">
+  <div class="col-4  ">
+    <div class="card text-white  ms-5">
+      <img src="./travel vog/Destinations-Travel-guides.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <img src="./travel vog/img1.png" alt="">
+        <h1 class="card-title mt-4">DESTINATIONS</h1>
+        <p class="card-text mt-3 fs-4 ms-3 me-3">Explore destination aroud the world from 110 countries on all 7 continents.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-4  ">
+    
+    <div class="card text-white ms-4 ">
+      <img src="https://theplanetd.com/images/Travel-Itineraries-1.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <img src="./travel vog/img2.png" alt="">
+        <h1 class="card-title mt-4">ITINERARIES</h1>
+        <p class="card-text mt-3 fs-4 ms-3 me-3">Descover detailed itineraries from 3 days to 1 week for multiple destination.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-4 ">
+    <div class="card  text-white me-5 ">
+      <img src="https://theplanetd.com/images/Travel-tips-Category.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <img src="./travel vog/img3.png" alt="">
+        <h1 class="card-title mt-4">TRAVEL TIPS</h1>
+        <p class="card-text mt-3 fs-4 ms-3 me-3">Learn from the best.Travel tips gathered from our 10 years of full-time travel.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- latest -->
+<div class="latest">
+
+  <h1>LATEST BLOG POSTS</h1>
+
+<div class="row img">
+  <div class="col-4">
+    <img src="./travel vog/Best-things-to-do-in-San-Antonio-Texas-800x600.jpg" alt="">
+    <div class="txt1  me-5">
+      <p class="c1">20 Best Things To Do In San Antonio,Texas In 2024</p>
+     
+    </div>
+
+  </div>
+  <div class="col-4">
+    <img src="./travel vog/Best-things-to-do-in-Southern-California-800x600.jpg" alt="">
+    <div class="txt1  me-5">
+      <p class="c1">23 Incredible Things To Do In Southern California In 2024  </p> 
+   
+
+    </div>
+
+  </div>
+  <div class="col-4">
+    <img src="./travel vog/Le-Boat-Ontario-Trent-Canal-800x600.jpg" alt="">
+    <div class="txt1  me-5">
+      <p class="c1">A Boating Newbie On The Trent-severb Waterway: Riding The River With Le Boat </p> 
+     
+
+    </div>
+
+  </div>
+</div>
+
+<section class="btnn">
+  <div class="col-3 mx-auto mt-4">
+    <button class="btn btn btn-lg mt-5 mb-5" type="button">READ MORE POSTS HERE</button>
+  </div>
+</section>
+</div>
+
+<!-- last -->
+<div class="last">
+
+<h1>WATCH OUR LATEST TRAVEL VIDEO</h1>
+
+<h5>NEW VEDIO EACH WEEK!</h5>
+
+<div class="youtube">
+<div class="row">
+  <div class="col-7">
+    <iframe  src="https://www.youtube.com/embed/hzd9-WoPcwI?si=VGiWST-Nl906P1uN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="col-5">
+    <h2 class="lasth">Watch Our YouTube <br> Video: </h2>
+    <p class="lastp">Read our full experience here is<span class="lastpp ms-1">Portugal Expensive To Visit? Travel Costs And Budgets </span></p>
+<p class="lp">Subscribe to our channel <span  class="lastpi">for more travel videos, and</span> <span class="pp">watch the full video here.</span></p>
+  
+
+<div class="button">
+  <button type="button" class="btn btn- btn-lg w-25 p-1 mt-3 " data-mdb-ripple-init>READ MORE</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- footer -->
+ <div class="footer">
+ <div class="row">
+  <div class="col-4">
+    <h2 class="he">ABOUT US</h2>
+    <h6 class="he">About Dev and Deb</h6>
+    <h6 class="he">Contact us</h6>
+    <h6 class="he">privacy Policy</h6>
+    <h6 class="he">Work With Us</h6>
+    <h6 class="he">Press And Media</h6>
+
+
+</div>
+  <div class="col-4">
+    <div class="icon">
+    <!-- Instagram -->
+    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+    ><i class="fab fa-instagram"></i
+  ></a>
+
+<!-- Facebook -->
+<a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+><i class="fab fa-facebook-f"></i
+></a>
+
+
+
+<!-- Google -->
+<a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+><i class="fab fa-google"></i
+></a>
+<!-- youtube -->
+<a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+><i class="fa-brands fa-youtube"></i
+></a>
+<!-- pintrust -->
+<a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+><i class="fa-brands fa-pinterest"></i
+></a>
+</div>
+<button class="btn m-1">
+<form class="d-flex input-group w-auto">
+ 
+  <input
+    class=" form-control "
+    placeholder="Search theplanetd.."
+    
+  />
+  <span class=" search input-group-text border-0 bg-primary  ">
+    <i class="fas fa-search"></i>
+  </span>
+</div>
+  <div class="col-4">       <h3 class="hi ms-5">TRAVEL <span class=""> RESOURCES</span></h3>
+    <h6 class="hi" >Best Travel Tips</h6>
+    <h6 class="hi">How to Save Money for Travel</h6>
+    <h6 class="hi">The Ultimate Travel Packing List</h6>
+    <h6 class="hi">Travel Safety Tips</h6>
+    <h6 class="hi">How To Travel on a Budget</h6>
+</div>
+ </div>
+</div>
+
+<footer class="bg-body-tertiary text-center">
+ 
+  <div class="container p-4"></div>
+  <!-- Grid container -->
+<div class="endf">
+ 
+  <div class="text-center p-3 mb-2  text-white" style="background-color: rgba(18, 15, 15, 0.05);">
+  
+  <div class="row">
+    <div class="col-4">@ 2024 THE PLANET D| ADVENTURE TRAVEL BLOG</div>
+    <div class="col-4"></div>
+    <div class="col-4">START HERE  PRIVACY/DISCLOSURE POLICY  TRAVEL BLOG</div>
+ 
+  </div>
+  
+</div>
+  
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
